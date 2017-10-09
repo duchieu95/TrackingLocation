@@ -1,0 +1,300 @@
+[debug] [2017-09-08T07:44:47.969Z] ----------------------------------------------------------------------
+[debug] [2017-09-08T07:44:47.974Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-08T07:44:47.975Z] CLI Version:   3.10.0
+[debug] [2017-09-08T07:44:47.975Z] Platform:      win32
+[debug] [2017-09-08T07:44:47.975Z] Node Version:  v6.11.3
+[debug] [2017-09-08T07:44:47.976Z] Time:          Fri Sep 08 2017 14:44:47 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T07:44:47.976Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-08T07:44:48.018Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-08T07:44:48.018Z] > authorizing via signed-in user
+[debug] [2017-09-08T07:44:48.021Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-08T07:44:48.022Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/SYgZ7rKRwR46TnKrVKgyuO6PutvvXw5Q8H5nKAnn7LU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Sep 08 2017 14:44:48 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T07:44:48.404Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T07:44:48.414Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 14:44:48 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T07:44:49.584Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T07:44:49.585Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Fri Sep 08 2017 14:44:49 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T07:44:50.525Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-08T07:44:50.542Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 14:44:50 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T07:44:51.850Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T07:44:51.851Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Fri Sep 08 2017 14:44:51 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T07:44:52.697Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-08T08:15:33.824Z] ----------------------------------------------------------------------
+[debug] [2017-09-08T08:15:33.828Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-08T08:15:33.828Z] CLI Version:   3.10.0
+[debug] [2017-09-08T08:15:33.828Z] Platform:      win32
+[debug] [2017-09-08T08:15:33.828Z] Node Version:  v6.11.3
+[debug] [2017-09-08T08:15:33.829Z] Time:          Fri Sep 08 2017 15:15:33 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:15:33.829Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-08T08:15:33.850Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-08T08:15:33.851Z] > authorizing via signed-in user
+[debug] [2017-09-08T08:15:33.856Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 15:15:33 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:15:34.971Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T08:15:34.973Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Fri Sep 08 2017 15:15:34 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:15:36.008Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-08T08:15:36.013Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 15:15:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:15:37.378Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T08:15:37.378Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Fri Sep 08 2017 15:15:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:15:38.223Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-08T08:16:36.405Z] ----------------------------------------------------------------------
+[debug] [2017-09-08T08:16:36.413Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-08T08:16:36.414Z] CLI Version:   3.10.0
+[debug] [2017-09-08T08:16:36.415Z] Platform:      win32
+[debug] [2017-09-08T08:16:36.415Z] Node Version:  v6.11.3
+[debug] [2017-09-08T08:16:36.416Z] Time:          Fri Sep 08 2017 15:16:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:16:36.417Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-08T08:16:36.450Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-08T08:16:36.450Z] > authorizing via signed-in user
+[debug] [2017-09-08T08:16:36.457Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 15:16:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:16:37.571Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T08:16:37.573Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Fri Sep 08 2017 15:16:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:16:38.461Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-08T08:16:38.465Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 15:16:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:16:39.733Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T08:16:39.734Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Fri Sep 08 2017 15:16:39 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T08:16:40.636Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-08T09:22:54.944Z] ----------------------------------------------------------------------
+[debug] [2017-09-08T09:22:54.950Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-08T09:22:54.951Z] CLI Version:   3.10.0
+[debug] [2017-09-08T09:22:54.951Z] Platform:      win32
+[debug] [2017-09-08T09:22:54.951Z] Node Version:  v6.11.3
+[debug] [2017-09-08T09:22:54.952Z] Time:          Fri Sep 08 2017 16:22:54 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:22:54.953Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-08T09:22:54.996Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-08T09:22:54.996Z] > authorizing via signed-in user
+[debug] [2017-09-08T09:22:55.001Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-08T09:22:55.002Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/SYgZ7rKRwR46TnKrVKgyuO6PutvvXw5Q8H5nKAnn7LU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Sep 08 2017 16:22:55 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:22:55.514Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T09:22:55.527Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 16:22:55 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:22:56.707Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T09:22:56.709Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Fri Sep 08 2017 16:22:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:22:57.751Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-08T09:22:57.758Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 16:22:57 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:22:59.039Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T09:22:59.040Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Fri Sep 08 2017 16:22:59 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:23:00.182Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-08T09:27:13.189Z] ----------------------------------------------------------------------
+[debug] [2017-09-08T09:27:13.197Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-08T09:27:13.197Z] CLI Version:   3.10.0
+[debug] [2017-09-08T09:27:13.198Z] Platform:      win32
+[debug] [2017-09-08T09:27:13.198Z] Node Version:  v6.11.3
+[debug] [2017-09-08T09:27:13.198Z] Time:          Fri Sep 08 2017 16:27:13 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:27:13.199Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-08T09:27:13.232Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-08T09:27:13.233Z] > authorizing via signed-in user
+[debug] [2017-09-08T09:27:13.238Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 16:27:13 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:27:14.386Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T09:27:14.388Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Fri Sep 08 2017 16:27:14 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:27:15.355Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-08T09:27:15.360Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 16:27:15 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:27:16.655Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T09:27:16.664Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Fri Sep 08 2017 16:27:16 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T09:27:17.773Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-08T15:39:32.632Z] ----------------------------------------------------------------------
+[debug] [2017-09-08T15:39:32.636Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-08T15:39:32.637Z] CLI Version:   3.10.0
+[debug] [2017-09-08T15:39:32.637Z] Platform:      win32
+[debug] [2017-09-08T15:39:32.637Z] Node Version:  v6.11.3
+[debug] [2017-09-08T15:39:32.638Z] Time:          Fri Sep 08 2017 22:39:32 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T15:39:32.638Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-08T15:39:32.678Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-08T15:39:32.679Z] > authorizing via signed-in user
+[debug] [2017-09-08T15:39:32.686Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-08T15:39:32.686Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/SYgZ7rKRwR46TnKrVKgyuO6PutvvXw5Q8H5nKAnn7LU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Sep 08 2017 22:39:32 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T15:39:33.089Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T15:39:33.104Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 22:39:33 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T15:39:34.251Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T15:39:34.252Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Fri Sep 08 2017 22:39:34 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T15:39:35.157Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-08T15:39:35.161Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Fri Sep 08 2017 22:39:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T15:39:36.520Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-08T15:39:36.521Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Fri Sep 08 2017 22:39:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-08T15:39:37.806Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-09T05:05:21.567Z] ----------------------------------------------------------------------
+[debug] [2017-09-09T05:05:21.570Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-09T05:05:21.571Z] CLI Version:   3.10.0
+[debug] [2017-09-09T05:05:21.571Z] Platform:      win32
+[debug] [2017-09-09T05:05:21.571Z] Node Version:  v6.11.3
+[debug] [2017-09-09T05:05:21.572Z] Time:          Sat Sep 09 2017 12:05:21 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T05:05:21.572Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-09T05:05:21.612Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-09T05:05:21.612Z] > authorizing via signed-in user
+[debug] [2017-09-09T05:05:21.620Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-09T05:05:21.621Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/SYgZ7rKRwR46TnKrVKgyuO6PutvvXw5Q8H5nKAnn7LU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Sep 09 2017 12:05:21 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T05:05:22.050Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T05:05:22.055Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Sat Sep 09 2017 12:05:22 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T05:05:23.459Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T05:05:23.460Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Sat Sep 09 2017 12:05:23 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T05:05:24.455Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-09T05:05:24.461Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Sat Sep 09 2017 12:05:24 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T05:05:25.847Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T05:05:25.848Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Sat Sep 09 2017 12:05:25 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T05:05:26.812Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-09T07:52:57.397Z] ----------------------------------------------------------------------
+[debug] [2017-09-09T07:52:57.403Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-09T07:52:57.404Z] CLI Version:   3.10.0
+[debug] [2017-09-09T07:52:57.404Z] Platform:      win32
+[debug] [2017-09-09T07:52:57.405Z] Node Version:  v6.11.3
+[debug] [2017-09-09T07:52:57.405Z] Time:          Sat Sep 09 2017 14:52:57 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T07:52:57.405Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-09T07:52:57.458Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-09T07:52:57.458Z] > authorizing via signed-in user
+[debug] [2017-09-09T07:52:57.463Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-09T07:52:57.463Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/SYgZ7rKRwR46TnKrVKgyuO6PutvvXw5Q8H5nKAnn7LU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Sep 09 2017 14:52:57 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T07:52:58.848Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T07:52:58.858Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Sat Sep 09 2017 14:52:58 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T07:53:02.011Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T07:53:02.013Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Sat Sep 09 2017 14:53:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T07:53:05.335Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-09T07:53:05.339Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Sat Sep 09 2017 14:53:05 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T07:53:06.706Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T07:53:06.707Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Sat Sep 09 2017 14:53:06 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-09T07:53:08.580Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-10T15:15:23.979Z] ----------------------------------------------------------------------
+[debug] [2017-09-10T15:15:23.986Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HieuHD\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-10T15:15:23.987Z] CLI Version:   3.10.0
+[debug] [2017-09-10T15:15:23.987Z] Platform:      win32
+[debug] [2017-09-10T15:15:23.987Z] Node Version:  v6.11.3
+[debug] [2017-09-10T15:15:23.989Z] Time:          Sun Sep 10 2017 22:15:23 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-10T15:15:23.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-10T15:15:24.049Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-10T15:15:24.050Z] > authorizing via signed-in user
+[debug] [2017-09-10T15:15:24.055Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-10T15:15:24.055Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/SYgZ7rKRwR46TnKrVKgyuO6PutvvXw5Q8H5nKAnn7LU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Sep 10 2017 22:15:24 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-10T15:15:24.570Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-10T15:15:24.578Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/trackinglocation-c652b  
+ Sun Sep 10 2017 22:15:24 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-10T15:15:26.596Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-10T15:15:26.597Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/trackinglocation-c652b/tokens  
+ Sun Sep 10 2017 22:15:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-10T15:15:27.598Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HieuHD\Desktop\tracking location'...
+[info] 
+[debug] [2017-09-10T15:15:27.603Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/trackinglocation-c652b  
+ Sun Sep 10 2017 22:15:27 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-10T15:15:28.968Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-10T15:15:28.969Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/814803211154/clients/_:getWebAppConfig  
+ Sun Sep 10 2017 22:15:28 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-10T15:15:30.264Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
